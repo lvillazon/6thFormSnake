@@ -62,7 +62,7 @@ public class Board extends JPanel implements Runnable{
         }
 
         // update and draw snake
-        if (snake != null) {
+        if (snake != null && keys != null) {
             if (keys.getLastPressed() == "left") {
                 snake.move(-1,0);
             }

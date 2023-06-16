@@ -5,6 +5,7 @@ class KeyChecker extends KeyAdapter {
     private String lastPressed;
 
     public KeyChecker() {
+        super();
         lastPressed = "none";
     }
 
