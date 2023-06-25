@@ -49,11 +49,6 @@ public class Snake {
     }
 
     public void grow(int segments) {
-        if (length<maxLength) {
-            length = length + segments;
-            // set new segment to the same grid pos as the tail end
-            xCoords[length-1] = xCoords[length-2];
-            yCoords[length-1] = yCoords[length-2];
-        }
+        System.out.println("Growing by " + segments + " segments...");
     }
 }
